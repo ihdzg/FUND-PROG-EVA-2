@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ihdzg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:23:58 p. m."/>
+        <attribute name="created" value="aWhkemc7SUhEWkc7MjAyMy0xMC0wOTswNTowMjoxMSBwLiBtLjsyMzY2"/>
+        <attribute name="edited" value="aWhkemc7SUhEWkc7MjAyMy0xMC0wOTswNToyMzo1OCBwLiBtLjsxOzI0ODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escribe tu calificaci&#243;n:&quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprobado: Viaje a cancun&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N/A: A repetir la materia&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Fin del programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
